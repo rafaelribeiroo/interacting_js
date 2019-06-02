@@ -1,0 +1,21 @@
+Breve explicação de cliente-servidor, ao qual é bem resumido pela seguinte frase:
+	"Você é um cliente que precisa dos dados do servidor"
+
+Google Chrome > Reticence > Undock > Reticence > Settings > Disable JavaScript
+
+Playing with Console
+	
+	F12 > Console
+	> alert('Olá, mundo!')
+	> document.body.style.background = 'black'
+	> document.querySelector('img#<id_imagem>').style.filter = 'grayscale(100%)'
+	> document.querySelector('img#<id_imagem>').style.visibility = 'hidden'
+	Ctrl+L
+
+"Mas, eu hackeei o site?"
+	Lembra que o JS funciona do lado do cliente? Pois é, apenas no seu dispositivo atual as alterações foram realizadas.
+	Envie uma nova requisição ao servidor e tudo se estabiliza.
+
+Modifying a blog post on G1
+	
+	> document.querySelector('span.bstn-h1-title').innerText = 'Nova alteração'

@@ -1,0 +1,2 @@
+ECMAScript é o JS padronizado
+	Na última versão (2018), foi incrementada a funcionalidade: "Promises"
