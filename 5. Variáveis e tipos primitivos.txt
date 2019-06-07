@@ -1,14 +1,15 @@
-Memorando: Sempre comente seu código! Não necessariamente o óbvio.
+Priori: Sempre comente seu código! Não necessariamente o óbvio.
 
 	// Single line
-	
+
 	/*
 	 * Multi-line
 	 */
 
 Analogia para exemplificar variável
 
-	Em um estacionamento, têmos que manter o controle (identificação) de quantas vagas existem para evitar que dois automóveis estacionem na mesma. 
+	Em um estacionamento, têmos que manter o controle (identificação) de quantas
+	vagas existem para evitar que dois automóveis estacionem na mesma.
 		vaga a1
 		vaga a2
 		vaga a3
@@ -28,8 +29,9 @@ Analogia para exemplificar variável
 	E quando o carro for embora?
 		vaga a1 = null
 
-Voltando a computação, temos também "vagas" para armazenar dados, para não ficarem bagunçados dentro do sistema.
-	
+Voltando a computação, temos também "vagas" para armazenar dados, para não
+ficarem bagunçados dentro do sistema.
+
 	Numéricos
 	var (ou let in modern JS) n1 = 5
 	var n2 = 8.5
