@@ -8,46 +8,28 @@ Priori: Sempre comente seu código! Não necessariamente o óbvio.
 
 Analogia para exemplificar variável
 
-	Em um estacionamento, têmos que manter o controle (identificação) de quantas
-	vagas existem para evitar que dois automóveis estacionem na mesma.
-		vaga a1
-		vaga a2
-		vaga a3
-		vaga a4
+	Em um estacionamento, temos que manter o controle (identificação) de qntas
+	vagas existem para evitar que dois automóveis ocupem a mesma
 
-	Mas além dos automóveis, teremos também caminhões.
-		vaga c1
-		vaga c2
+		vaga automóvel1			vaga caminhão1			vaga bicicleta1
+		vaga automóvel2 		vaga caminhão2 			vaga bicicleta2
+		vaga automóvel3
+		vaga automóvel4
 
-	E para os demais, incluímos também vagas de bicicletas.
-		vaga b1
-		vaga b2
-
-	E o que as vagas receberão?
-		vaga a1 = carro1  // Um igual refere-se a RECEBE
-
-	E quando o carro for embora?
-		vaga a1 = null
+	E o que as vagas receberão? 		E quando o carro for embora?
+		vaga a1 = carro1 						vaga a1 = null
 
 Voltando a computação, temos também "vagas" para armazenar dados, para não
 ficarem bagunçados dentro do sistema.
 
-	Numéricos
-	var (ou let in modern JS) n1 = 5
-	var n2 = 8.5
-	var n3 = 87
+	Numéricos								Strings
+	var (ou let) n1 = 5 					var s1 = 'Curso'
+	var n2 = 8.5 							var s2 = "de"
+	var n3 = 87 							var s3 = `JS`
 
-	Strings
-	var s1 = 'Curso'
-	var s2 = "de"
-	var s3 = `JS`
-
-	Boolean
-	var v = true
+	Boolean 								Qual é o tipo da minha variável?
+	var v = true							typeof s1
 	var f = false
-
-	Qual é o tipo da minha variável?
-	typeof s1
 
 No JS os identificadores podem:
 	:começar com $ ou _
